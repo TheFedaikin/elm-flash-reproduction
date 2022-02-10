@@ -1,0 +1,59 @@
+:root {
+  --color-primary:  #f00;
+  --color-secondary: #fff;
+  --color-link: #f05;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+[data-theme='dark'] {
+  --color-primary: #333;
+  --color-secondary: #fff;
+}
+
+[data-theme='light'] {
+  --color-primary: #f00;
+  --color-secondary: #fff;
+}
+
+[data-theme='solarized'] {
+  --color-primary: #0f0;
+  --color-secondary: #fff;
+}
+
+[data-theme='reading'] {
+  --color-primary: #a40;
+  --color-secondary: #fff;
+}
+
+html,
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-size: 62.5%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
